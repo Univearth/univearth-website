@@ -7,7 +7,7 @@ import { Fragment } from 'react';
 const navigation = [
   { name: '私たちについて', href: '/about' },
   { name: '採用情報', href: '#' },
-  { name: 'お知らせ', href: '#' },
+  { name: 'お知らせ', href: '/News' },
   { name: '会社概要', href: '/#information' },
 ];
 

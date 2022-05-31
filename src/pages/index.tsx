@@ -3,6 +3,8 @@ import Information from '@/components/InformationSection/Information';
 import Layout from '@/components/Layouts/Layout';
 import News from '@/components/newsSection/News';
 import Service from '@/components/serviceSection/Service';
+// eslint-disable-next-line import/order
+import ReturnTopButton from '@/components/Button/Returntop';
 
 const Home = (): JSX.Element => {
   return (
@@ -11,6 +13,9 @@ const Home = (): JSX.Element => {
       <Service />
       <News />
       <Information />
+      <div className=" absolute right-56">
+        <ReturnTopButton />
+      </div>
     </Layout>
   );
 };

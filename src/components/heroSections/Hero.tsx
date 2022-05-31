@@ -4,9 +4,7 @@ export default function Hero() {
       <main className="px-4 mx-auto mt-8 max-w-7xl">
         <div className="py-6 px-4 mx-auto max-w-7xl sm:py-12 sm:px-6">
           <div className="text-center">
-            <h2 className="text-base font-semibold tracking-wide text-cyan-800 lg:mb-5">
-              MISSION
-            </h2>
+            <h2 className="text-base font-semibold tracking-wide text-cyan-800 lg:mb-5">MISSION</h2>
             <p className="mt-1 text-2xl font-extrabold leading-relaxed text-gray-900 sm:text-3xl sm:tracking-tight md:leading-relaxed lg:text-4xl lg:leading-relaxed">
               最適化を通じて効率的で
               <br />
