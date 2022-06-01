@@ -1,10 +1,8 @@
 const Information = () => {
   return (
-    <div className="px-4 pt-8 pb-20 text-center" id='information'>
+    <div className="px-4 pt-8 pb-20 text-center" id="information">
       <div className="relative pb-12 mx-auto max-w-lg lg:max-w-7xl">
-        <h2 className="text-base font-semibold tracking-wide text-cyan-800 lg:mb-5">
-          INFORMATION
-        </h2>
+        <h2 className="text-base font-semibold tracking-wide text-cyan-800 lg:mb-5">INFORMATION</h2>
         <p className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">会社概要</p>
       </div>
       <div className="flex justify-center mx-auto max-w-lg text-left lg:max-w-7xl">
