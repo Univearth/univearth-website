@@ -1,7 +1,7 @@
-/* eslint-disable tailwindcss/classnames-order */
-import Layout from '@/components/Layouts/Layout';
-// eslint-disable-next-line import/order
 import ReturnTopButton from '@/components/Button/Returntop';
+import Layout from '@/components/Layouts/Layout';
+
+
 
 const about = () => {
   return (
@@ -16,7 +16,7 @@ const about = () => {
               私たちについて
             </p>
 
-            <p className="mx-auto mt-5 text-sm max-w-5xl font-semibold leading-6  text-black md:mt-8 md:text-xl md:leading-9 lg:mt-10 ">
+            <p className="mx-auto mt-5 max-w-5xl text-sm font-semibold leading-6  text-black md:mt-8 md:text-xl md:leading-9 lg:mt-10 ">
               自分に合った生き方をする。
               <br />
               その人らしく生きるとはどういうことか。
@@ -60,7 +60,7 @@ const about = () => {
           </h3>
           <h3 className="my-2 text-zinc-900">共に成長しよう。</h3>
         </div>
-        <h2 className="mt-20 mb-12 text-3xl font-semibold text-left md:text-4xl lg:text-5xl lg:mt-36">
+        <h2 className="mt-20 mb-12 text-3xl font-semibold text-left md:text-4xl lg:mt-36 lg:text-5xl">
           INFORMATION
         </h2>
         <div className="mt-6 md:mt-8 lg:mt-12   ">
