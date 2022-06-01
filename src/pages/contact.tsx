@@ -1,26 +1,17 @@
-// eslint-disable-next-line import/order
-import Layout from '@/components/Layouts/Layout';
-// eslint-disable-next-line import/order
-import type { NextPage } from 'next';
-// eslint-disable-next-line import/order
-import { useForm, SubmitHandler } from 'react-hook-form';
-// eslint-disable-next-line import/order
-import React from 'react';
-// eslint-disable-next-line import/order
 import { ErrorMessage } from '@hookform/error-message';
+import React from 'react';
+import { useForm, SubmitHandler } from 'react-hook-form';
 
-type Inputs = {
-  name: string;
-  company: string;
-  email: string;
-};
+import { Inputs } from '@/@types/global.d';
+import Layout from '@/components/Layouts/Layout';
 
-const contact: NextPage = () => {
+import type { NextPage } from 'next';
+
+const Contact: NextPage = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-    // eslint-disable-next-line react-hooks/rules-of-hooks
   } = useForm<Inputs>({
     criteriaMode: 'all',
   });
@@ -154,4 +145,4 @@ const contact: NextPage = () => {
   );
 };
 
-export default contact;
+export default Contact;
