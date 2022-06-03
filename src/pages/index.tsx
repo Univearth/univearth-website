@@ -1,3 +1,4 @@
+import ReturnTopButton from '@/components/Button/Returntop';
 import Hero from '@/components/heroSections/Hero';
 import Information from '@/components/InformationSection/Information';
 import Layout from '@/components/Layouts/Layout';
@@ -11,6 +12,9 @@ const Home = (): JSX.Element => {
       <Service />
       <News />
       <Information />
+      <div className=" absolute right-56">
+        <ReturnTopButton />
+      </div>
     </Layout>
   );
 };

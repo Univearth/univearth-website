@@ -7,7 +7,7 @@ import { Fragment } from 'react';
 const navigation = [
   { name: '私たちについて', href: '/about' },
   { name: '採用情報', href: '#' },
-  { name: 'お知らせ', href: '#' },
+  { name: 'お知らせ', href: '/News' },
   { name: '会社概要', href: '/#information' },
 ];
 
@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <div className="relative pt-6 pb-16 sm:pb-12">
         <Popover>
-          <div className="px-4 mx-auto max-w-7xl sm:px-6">
+          <div className=" px-4 mx-auto max-w-7xl  sm:px-6">
             <nav
               className="flex relative justify-between items-center sm:h-10 md:justify-center"
               aria-label="Global"

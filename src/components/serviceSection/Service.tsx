@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Service = () => {
   return (
     <div className="overflow-hidden relative pt-16 sm:pt-24 lg:py-32">
@@ -17,10 +19,12 @@ const Service = () => {
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-          <img
-            className="rounded-lg ring-1 ring-black ring-opacity-5 shadow-xl"
+          <Image
+            className="rounded-lg ring-1 ring-black  shadow-xl"
             src="/images/service-image01.jpg"
             alt=""
+            width='1000'
+            height='700'
           />
         </div>
       </div>
