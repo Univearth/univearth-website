@@ -1,6 +1,5 @@
 import { ErrorMessage } from '@hookform/error-message';
-import React from 'react';
-import { useForm, SubmitHandler } from 'react-hook-form';
+import { SubmitHandler, useForm } from 'react-hook-form';
 
 import { Inputs } from '@/@types/global.d';
 import Layout from '@/components/Layouts/Layout';

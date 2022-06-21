@@ -48,7 +48,7 @@ const ReturnTopButton = () => {
         onClick={returnTop}
         className="text-black   hover:text-cyan-800 active:text-gray-600  transition duration-75 hover:scale-125"
       >
-        <Image width="100" height="70" src="/rin2.png" alt="" />
+        <Image width="100" height="70" src="/images/rin2.png" alt="" />
         <p className="font-semibold">TOP</p>
       </button>
     </div>

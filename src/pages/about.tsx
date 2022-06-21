@@ -1,9 +1,11 @@
+import Image from 'next/image';
+
 import ReturnTopButton from '@/components/Button/Returntop';
 import Layout from '@/components/Layouts/Layout';
 
 
 
-const about = () => {
+const About = () => {
   return (
     <Layout>
       <main className="px-4 mx-auto mt-8 max-w-7xl">
@@ -16,7 +18,16 @@ const about = () => {
               私たちについて
             </p>
 
-            <p className="mx-auto mt-5 max-w-5xl text-sm font-semibold leading-6  text-black md:mt-8 md:text-xl md:leading-9 lg:mt-10 ">
+            <div className="flex flex-col justify-between mx-auto lg:flex-row lg:mt-16">
+              <div className='mt-5 lg:mt-10'>
+              <Image 
+            src="/images/rin2.png"
+            alt=""
+            width='350'
+            height='250' />
+              </div>
+              <div className='mx-auto mt-5 max-w-5xl text-left lg:mt-10'>
+              <p className=" text-sm font-semibold leading-6 text-black md:text-xl md:leading-9 ">
               自分に合った生き方をする。
               <br />
               その人らしく生きるとはどういうことか。
@@ -34,6 +45,24 @@ const about = () => {
               <br /> 毎日遊ぼう。
               <br /> みんな全力で遊べ。
             </p>
+            <div>
+            <div className='flex justify-end text-right lg:-mt-14'>
+            <div>
+                
+                <p className='text-sm'>代表取締役</p>
+                <p className='text-lg font-bold lg:text-2xl'>谷口 臨太朗</p>
+                </div>
+                <Image src='/images/sign_rin.png' width='100' height='100' alt='' />
+            </div>
+              
+              
+            </div>
+              </div>
+            
+
+            </div>
+
+            
           </div>
         </div>
       </main>
@@ -41,7 +70,7 @@ const about = () => {
         <h2 className="mt-20 mb-12 text-3xl font-semibold text-left md:text-4xl lg:text-5xl">
           VAL<span className="text-cyan-800">U</span>ES
         </h2>
-        <div className="grid grid-cols-2 font-semibold  md:text-lg lg:text-2xl">
+        <div className="grid grid-cols-2 mx-auto font-semibold  md:text-lg lg:text-2xl">
           <h4 className="flex text-xs font-normal text-cyan-800  md:text-base">
             Become an expert.
           </h4>
@@ -106,4 +135,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

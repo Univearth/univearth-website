@@ -13,7 +13,7 @@ const posts = [
 
 const News = () => {
   return (
-    <div className="flex flex-col justify-center px-4 pt-32 pb-20 text-center bg-white sm:px-6 lg:px-8 lg:pt-32 lg:pb-28 lg:mt-32">
+    <div className="flex flex-col justify-center px-4 pt-32 pb-20 text-center bg-white sm:px-6 lg:px-8 lg:pt-32 lg:pb-28">
       <div className="relative mx-auto max-w-lg divide-gray-200 lg:max-w-7xl">
         <div>
           <h2 className="text-base font-semibold tracking-wide text-cyan-800 lg:mb-5">NEWS</h2>
